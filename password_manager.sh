@@ -35,7 +35,7 @@ while :; do
 		done <$FILE
 
 		if [ "$service_found" -eq 0 ]; then
-			echo "そのサービスは登録されていません"
+			echo "そのサービスは登録されていません。"
 		fi
 		echo "次の選択肢から入力してください(Add Password/Get Password/Exit):"
 		;;
